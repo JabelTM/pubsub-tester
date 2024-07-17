@@ -90,8 +90,8 @@ public class TopicService {
         }
     }
 
-    private PubsubMessage buildMessage(final Object payload) {
-        ByteString data = ByteString.copyFromUtf8((new Gson()).toJson(payload));
+    private PubsubMessage buildMessage(final String message) {
+        ByteString data = ByteString.copyFromUtf8(message);
         return PubsubMessage.newBuilder()
                 .setData(data)
                 .build();
