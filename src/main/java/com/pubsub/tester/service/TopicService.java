@@ -1,4 +1,4 @@
-package com.pubsub.demo.service;
+package com.pubsub.tester.service;
 
 import com.google.api.core.ApiFuture;
 import com.google.api.gax.core.CredentialsProvider;
@@ -7,7 +7,6 @@ import com.google.api.gax.rpc.TransportChannelProvider;
 import com.google.cloud.pubsub.v1.Publisher;
 import com.google.cloud.pubsub.v1.TopicAdminClient;
 import com.google.cloud.pubsub.v1.TopicAdminSettings;
-import com.google.gson.Gson;
 import com.google.protobuf.ByteString;
 import com.google.pubsub.v1.ProjectTopicName;
 import com.google.pubsub.v1.PubsubMessage;

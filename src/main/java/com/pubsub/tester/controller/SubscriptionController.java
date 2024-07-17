@@ -1,16 +1,15 @@
-package com.pubsub.demo.controller;
+package com.pubsub.tester.controller;
 
-import com.pubsub.demo.domain.Resource;
-import com.pubsub.demo.domain.SubscriptionResponse;
-import com.pubsub.demo.mapper.ResponseMapper;
-import com.pubsub.demo.service.SubscriptionService;
+import com.pubsub.tester.domain.Resource;
+import com.pubsub.tester.domain.SubscriptionResponse;
+import com.pubsub.tester.mapper.ResponseMapper;
+import com.pubsub.tester.service.SubscriptionService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("/v1/subscription")

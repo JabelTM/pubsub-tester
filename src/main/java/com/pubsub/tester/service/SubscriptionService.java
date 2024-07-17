@@ -1,18 +1,15 @@
-package com.pubsub.demo.service;
+package com.pubsub.tester.service;
 
 import com.google.api.gax.core.CredentialsProvider;
 import com.google.api.gax.rpc.AlreadyExistsException;
 import com.google.api.gax.rpc.TransportChannelProvider;
-import com.google.cloud.pubsub.v1.AckReplyConsumer;
 import com.google.cloud.pubsub.v1.Subscriber;
 import com.google.cloud.pubsub.v1.SubscriptionAdminClient;
 import com.google.cloud.pubsub.v1.SubscriptionAdminSettings;
 import com.google.pubsub.v1.ProjectSubscriptionName;
-import com.google.pubsub.v1.PubsubMessage;
 import com.google.pubsub.v1.PushConfig;
 import com.google.pubsub.v1.TopicName;
-import com.pubsub.demo.receiver.CustomMessageReceiver;
-import lombok.RequiredArgsConstructor;
+import com.pubsub.tester.receiver.CustomMessageReceiver;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;

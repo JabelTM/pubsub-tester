@@ -1,8 +1,7 @@
-package com.pubsub.demo.controller;
+package com.pubsub.tester.controller;
 
-import com.pubsub.demo.domain.Message;
-import com.pubsub.demo.domain.Resource;
-import com.pubsub.demo.service.TopicService;
+import com.pubsub.tester.domain.Resource;
+import com.pubsub.tester.service.TopicService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

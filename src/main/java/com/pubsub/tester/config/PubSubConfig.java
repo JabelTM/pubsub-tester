@@ -1,4 +1,4 @@
-package com.pubsub.demo.config;
+package com.pubsub.tester.config;
 
 import com.google.api.gax.core.CredentialsProvider;
 import com.google.api.gax.core.NoCredentialsProvider;

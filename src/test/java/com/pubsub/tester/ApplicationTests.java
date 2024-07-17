@@ -1,4 +1,4 @@
-package com.pubsub.demo;
+package com.pubsub.tester;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,6 +1,6 @@
-package com.pubsub.demo.mapper;
+package com.pubsub.tester.mapper;
 
-import com.pubsub.demo.domain.SubscriptionResponse;
+import com.pubsub.tester.domain.SubscriptionResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

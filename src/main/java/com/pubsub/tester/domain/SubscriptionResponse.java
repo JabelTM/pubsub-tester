@@ -1,4 +1,4 @@
-package com.pubsub.demo.domain;
+package com.pubsub.tester.domain;
 
 import lombok.Builder;
 import lombok.Data;
