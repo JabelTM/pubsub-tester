@@ -6,6 +6,6 @@ spring:
   name: demo
   cloud:
     gcp:
-      project-id: bv-gtar-local
+      project-id: meu-project-id
       pubsub:
         emulator-host: localhost:8085
